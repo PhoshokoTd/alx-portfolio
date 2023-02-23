@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Sign Up</h1>
+	<form action="submit-form.php" method="post">
+		<p>
+		   <label for="name">Name:</label>
+		   <input type="text" id="name" name="name" required><br>
+	    </p>
+		<p>
+			<label for="email">Email:</label>
+		    <input type="email" id="email" name="email" required><br>
+        </p>
+		<p>
+			<label for="password">Password:</label>
+		    <input type="password" id="password" name="password" required><br>
+        </p>
+        <p>
+			<label for="password">Password confirmation:</label>
+		    <input type="password" id="password" name="password" required><br>
+        </p>
+		<p>
+		  <label for="gender">Gender:</label>
+		<select id="gender" name="gender" required>
+			<option value="">Select Gender</option>
+			<option value="girl">Girl</option>
+			<option value="boy">Boy</option>
+		 </select>
+        </p>
+		<input type="submit" value="Submit">
+	</form>
+</body>
+</html>
